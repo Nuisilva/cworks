@@ -1,0 +1,49 @@
+
+.full-heading{
+
+  width:100%;
+  background-color: red;
+  height:700px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-left {
+
+  @include j-column(1/3);
+  font-family : Oswald;
+  background : rgba(28, 117, 188, .75);
+  margin-left: 7%;
+  padding: 4%;
+  position: absolute;
+  bottom: 0;
+
+
+  h1 {
+
+
+    font-size : 45px;
+    color : #FFFFFF;
+    color : rgb(255, 255, 255);
+  }
+
+  p {
+
+    font-family : "Open Sans",sans-serif;
+    font-size : 18px;
+    color : #FFFFFF;
+    font-weight: 200;
+
+  }
+
+  li {
+
+    font-family : "Open Sans", sans-serif;
+    font-size : 18px;
+    color : #FFFFFF;
+    font-weight: 200;
+
+  }
+
+}
